@@ -9,14 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-.date{
-  float: right;
-}
-
-.education{
-  text-align: justify;
-}
-
 .container-fluid {
   margin: 0 auto;
   max-width: 1200px;
@@ -226,10 +218,40 @@ block
 about
 ----- 
 */
-.aboutBlock .contentHolder {
-  text-align: center;
-  margin: 0 0 50px;
+
+.aboutBlock h1{
+  font-size: 55px;
+  color: #295b71;
 }
+
+.aboutBlock .eduContent {
+  /* text-align: center;
+  margin: 0 0 50px; */
+  
+  position: relative;
+  text-align: center;
+} 
+
+.education {
+  display: inline-block;
+  text-align: left;
+}
+
+.date {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* .education{
+  text-align: center;
+  display: flex;
+  align-items: center;
+} */
+
+
+
 
 .aboutBlock  .icon {
   font-size: 40px;
@@ -238,6 +260,7 @@ about
 }
 
 .aboutBlock .content {
+  
   text-align: center;
 }
 
@@ -250,9 +273,23 @@ about
 experience
 ----
 */
+
+.expBlock h2{
+  font-size: 40px;
+  color: #295b71;
+}
+
+.expBlock li{
+  font-size: 15px;
+}
+
+
 .expBlock .ant-collapse {
   margin: 0 0 40px;
+  font-size: 18px;
 }
+
+
 
 .expBlock .fas {
   margin: 0 10px 0 0;
@@ -274,6 +311,11 @@ contact
 
 .contactBlock .content {
   text-align: center;
+}
+
+.titleHolder h2{
+  font-size: 40px;
+  color: #295b71;
 }
 
 a:any-link {

@@ -28,16 +28,21 @@ function About(){
         <div id="about" className="block aboutBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
+                    <h1>About Me</h1>
                     <img className="proPhoto" src = {phote}></img>
                     <br></br>
                     <br></br>
                     <br></br>
                     <p>A Recent Computer Science graduate specializing in full software development life cycle, gathering requirement specifications and user documentation</p>
                 </div>
-                <div className="contentHolder">
-                    <p >Queens College <span className="date"> Jan 2017 - Jan 2020</span> </p>
+                <div className="eduContent">
+                    <p className="education">Queens College </p>
+                    <p className="date"> Jan 2017 - Jan 2020</p>
+                </div>
+                <div className="eduContent">    
                     {/* <span className="education">Computer Science Bachelor of Science Computer Science</span> */}
-                    <p >Queensborough Community College <span className="date"> Jan 2015 - Jan 2017</span> </p>
+                    <p className="education">Queensborough Community College  </p>
+                    <p className="date">Jan 2015 - Jan 2017</p>
                 </div>
                
                 <Row gutter={[16, 16]}>   

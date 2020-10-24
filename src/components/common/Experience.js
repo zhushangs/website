@@ -13,7 +13,7 @@ function Experience(){
                     <h2>Work Experience</h2>
                 </div>
                 <Collapse bordered={false} expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />} 
-                          defaultActiveKey={['1']}  className="site-collapse-custom-collapse" >
+                          defaultActiveKey={['1','2']}  className="site-collapse-custom-collapse" >
                     <Panel header="WalkSpan" key="1">
                         <li>Software Engineer Intern <span className="date"> Jul 2020 – Aug 2020 </span></li>
                         <ul>
@@ -23,7 +23,7 @@ function Experience(){
                             <li> Collaborated on an AGILE team of 5 on a weekly basis providing updates or any roadblocks </li>
                         </ul>
                     </Panel>
-                    <Panel header="Startby" key="2">
+                    <Panel className="panelHeader" header="Startby" key="2">
                         <li>Quality Assurance Volunteer <span className="date"> Jun 2020 – Jun 2020 </span></li>
                         <ul>
                             <li> Tested functionality of website and created feature test plans </li>
@@ -37,7 +37,7 @@ function Experience(){
                     <h2>Project Experience</h2>
                 </div>
                 <Collapse bordered={false} expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />} 
-                          defaultActiveKey={['1']}  className="site-collapse-custom-collapse" >
+                          defaultActiveKey={['1', '2']}  className="site-collapse-custom-collapse" >
                     <Panel header="Data-Analytics" key="1">
                         <li>Jupyter Notebook</li>
                         <ul>
