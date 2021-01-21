@@ -4,17 +4,17 @@ import { Row, Col } from 'antd';
 const items = [
     {
         key: '1',
-        icon:  <a href="mailto:zhushangs@gmail.com"><i class="fas fa-envelope-open-text"></i></a>,
+        icon:  <a href="mailto:zhushangs@gmail.com" ><i class="fas fa-envelope-open-text"></i></a>,
         title: 'Email',
     },    
     {
       key: '2',
-      icon: <a href="https://www.linkedin.com/in/shangshang-zhu-61a60017a/" target="_blank"> <i className="fab fa-linkedin-in"></i></a>,
+      icon: <a href="https://www.linkedin.com/in/shangshang-zhu-61a60017a/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-linkedin-in"></i></a>,
       title: 'LinkedIn',
     },
     {
         key: '3',
-        icon:  <a href="https://github.com/zhushangs" target="_blank"><i className="fab fa-github"></i></a>,
+        icon:  <a href="https://github.com/zhushangs" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>,
         title: 'Github',
       },
 ]

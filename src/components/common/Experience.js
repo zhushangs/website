@@ -12,18 +12,29 @@ function Experience(){
                 <div className="titleHolder">
                     <h2>Work Experience</h2>
                 </div>
+
+
                 <Collapse bordered={false} expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />} 
-                          defaultActiveKey={['1','2']}  className="site-collapse-custom-collapse" >
-                    <Panel header="WalkSpan" key="1">
-                        <li>Software Engineer Intern <span className="date"> Jul 2020 – Aug 2020 </span></li>
+                          defaultActiveKey={['1','2','3']}  className="site-collapse-custom-collapse" >
+                    <Panel header="ESFE" key="1">
+                        <li>Full Stack Developer Intern <a href="https://www.nycesfe.com/">  (https://www.nycesfe.com/) </a> <span className="date"> Nov 2020 – present </span></li>
                         <ul>
-                            <li> Managed and lead the project to build out the real estate company website </li>
-                            <li> Built a modern real estate HTML5 and mobile friendly website using ReactJS web framework technology </li>
-                            <li> Implemented Front End connectivity with a RESTful API built in Java </li>
-                            <li> Collaborated on an AGILE team of 5 on a weekly basis providing updates or any roadblocks </li>
+                            <li> Built a Contact free order and payment system to help small businesses in
+                                 community that reducing physical touching with customers due to COVID-19. </li>
+                            <li> Worked in Agile-driven environment to effectively maintain • project timelines. </li>
+                            <li> Researched new technologies and software packages for use which reduced workload by 30%. </li>
+                            <li> Implemented Front End connectivity with a RESTful API to manipulate dynamic datasets. </li>
                         </ul>
                     </Panel>
-                    <Panel className="panelHeader" header="Startby" key="2">
+                    <Panel header="WalkSpan" key="2">
+                        <li>Full Stack Developer Intern <a href="https://www.walkspan.com/">  (https://www.walkspan.com/) </a> <span className="date"> Jul 2020 – Aug 2020 </span></li>
+                        <ul>
+                            <li> Built a modern real estate HTML5 and mobile friendly website using ReactJS web framework technology. </li>
+                            <li> Collaborated with the web designer to create sleek and innovative UI design. </li>
+                            <li> Trained and supervised 5 team members for ongoing web projects. </li>
+                        </ul>
+                    </Panel>
+                    <Panel className="panelHeader" header="Startby" key="3">
                         <li>Quality Assurance Volunteer <span className="date"> Jun 2020 – Jun 2020 </span></li>
                         <ul>
                             <li> Tested functionality of website and created feature test plans </li>
@@ -38,20 +49,24 @@ function Experience(){
                 </div>
                 <Collapse bordered={false} expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />} 
                           defaultActiveKey={['1', '2']}  className="site-collapse-custom-collapse" >
-                    <Panel header="Data-Analytics" key="1">
+                    <Panel header="Salary-Regression-Analytics" key="1">
                         <li>Jupyter Notebook</li>
                         <ul>
-                            <li>Collected the Income Data from Census using Python and different models to craft a decision function to assign a label regarding the salary range and information </li>
-                            <li> Using Exploratory Data Analysis (EDA) to summarize and visualize the main characteristics </li>
-                            <li> Analyzing data using Linear Regression Model, Data Visualization, Logistics Regression to determine the relationship between a dependent variable and one or more independent variables </li>
+                            <li> Analyzing Income Data from Census to determine the relationship between salary and attributes of people. </li>
+                            <li> Exploratory Data Analysis (EDA) is used to visualize the main characteristics. </li>
+                            <li> Normalized numerical features and categorical independent variables to conduct
+                                 data regression analysis by Logistic Regression and SVM Model. </li>
+                            <li> Integrate around 100k data through Python csv connector and applied data transformation with pandas, seaborn and NumPy.</li>
                         </ul>
                     </Panel>
                     <Panel header="Reminder" key="2">
-                        <li>Mobile App</li>
+                        <li>Mobile App (Android Studio)</li>
                         <ul>
-                            <li> Documentation: UML, Design Document, Project Plan, User Manuel, Test Plan </li>
-                            <li> Using Android Studio to create a mobile application which allows end users to add, edit, delete reminders with different types </li>
-                            <li> Personal task: testing the application and then recorded results in Test Cases Tables </li>
+                            <li> The reminder mobile app allows users to login with Gmail account, and then able to
+                                 add, edit, select and delete reminders. </li>
+                            <li> This app is built by Android Studio and using Firebase to store data. </li>
+                            <li> Collaborated on a Group of 5 on weekly basis discussing documentation, ideas and updates. </li>
+                            <li> Documentation: UML, Design Document, Project Plan, User Manuel, Test Plan. </li>
                         </ul>
                     </Panel>
                 </Collapse>

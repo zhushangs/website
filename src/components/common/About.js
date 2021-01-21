@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import phote from '../../assets/images/photo.jpg'
+import phote from '../../assets/images/photo.png'
 
 const items = [
     {
@@ -29,11 +29,15 @@ function About(){
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h1>About Me</h1>
-                    <img className="proPhoto" src = {phote}></img>
+                    <img className="proPhoto" src = {phote} alt="proPhoto"></img>
                     <br></br>
                     <br></br>
                     <br></br>
                     <p>A Recent Computer Science graduate specializing in full software development life cycle, gathering requirement specifications and user documentation</p>
+                </div>
+                <div className="eduContent">
+                    <p className="education"> Google Analytics Certification </p>
+                    <p className="date"> 2020 </p>
                 </div>
                 <div className="eduContent">
                     <p className="education">Queens College </p>

@@ -195,7 +195,7 @@ mainpage
 }
 
 .mainpage h3 {
-  font-size: 95px;
+  font-size: 90px;
   line-height: 1.2;
   margin: 0 0 30px;
   color: white;
@@ -267,6 +267,7 @@ about
 .proPhoto{
   width: 150px;
   border-radius: 50%;
+  height: 150px;
 }
 
 /* 
